@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jinu Ramesh | GIS Portfolio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #263445;
+  line-height: 1.7;
+}
+
+header {
+  background: #102a43;
+  color: white;
+  padding: 25px 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav h2 {
+  color: #76d7c4;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+.hero {
+  padding: 90px 8%;
+  background: #102a43;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.hero h3 {
+  color: #76d7c4;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 650px;
+}
+
+section {
+  padding: 65px 8%;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #102a43;
+}
+
+.about {
+  max-width: 850px;
+}
+
+.projects {
+  background: #eaf0f5;
+}
+
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  max-width: 900px;
+  box-shadow: 0 4px 15px #00000008;
+}
+
+.project-card h3 {
+  color: #176b65;
+  margin-bottom: 12px;
+}
+
+.project-card ul {
+  padding-left: 20px;
+}
+
+.skills span {
+  display: inline-block;
+  background: #dce9ef;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  background: #102a43;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+footer a {
+  color: #76d7c4;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  nav a {
+    margin-left: 8px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <h2>JINU RAMESH</h2>
+    <div>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <h3>GEOLOGY | GIS | ENVIRONMENT</h3>
+  <h1>Hello, I'm Jinu Ramesh</h1>
+  <p>
+    A Geology graduate with a keen interest in geospatial data analysis.
+    I work on projects using GIS tools and spatial datasets to develop
+    solutions for environmental challenges.
+  </p>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about">
+    <p>
+      With a background in Geology and an interest in geospatial
+      technologies, I work on projects using GIS tools and spatial
+      datasets to analyze geographical patterns, create maps, and
+      understand environmental conditions. My work combines geological
+      knowledge with spatial analysis, focusing on landscapes,
+      natural resources, and environmental applications.
+    </p>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <h2>Selected Projects</h2>
+
+  <div class="project-card">
+    <h3>01 | Landslide Susceptibility Mapping</h3>
+    <p><strong>Study Area:</strong> Wayanad, Kerala</p>
+    <p>
+      Developed a GIS-based landslide susceptibility assessment
+      using ArcGIS and ArcGIS Pro to identify landslide-prone
+      regions through spatial analysis and machine learning.
+    </p>
+    <br>
+    <p><strong>Key Contributions</strong></p>
+    <ul>
+      <li>Prepared thematic maps of slope, aspect, curvature,
+      elevation, geology, soil, rainfall, NDVI and LULC.</li>
+      <li>Generated drainage density, flow accumulation,
+      stream power index and lineament density maps.</li>
+      <li>Conducted proximity analysis for roads, quarries,
+      drainage networks and critical infrastructure.</li>
+      <li>Applied Random Forest, GBT and GLR models
+      using ArcGIS Pro.</li>
+      <li>Compared model outputs to identify landslide
+      susceptibility zones.</li>
+    </ul>
+    <br>
+    <p><strong>Tools:</strong> ArcGIS | ArcGIS Pro</p>
+  </div>
+
+  <div class="project-card">
+    <h3>02 | Groundwater Hydrogeochemical Assessment</h3>
+    <p><strong>Study Area:</strong> Kattumannarkoil Taluk, Tamil Nadu</p>
+    <p>
+      Studied groundwater hydrogeochemical characteristics
+      and water quality using groundwater samples and
+      analytical parameters to assess drinking and
+      irrigation suitability.
+    </p>
+    <br>
+    <p><strong>Focus:</strong> Groundwater quality,
+    hydrogeochemistry and environmental assessment.</p>
+  </div>
+
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <span>ArcGIS</span>
+    <span>ArcGIS Pro</span>
+    <span>QGIS</span>
+    <span>Spatial Analysis</span>
+    <span>Raster Analysis</span>
+    <span>Remote Sensing</span>
+    <span>Geological Mapping</span>
+    <span>Environmental Assessment</span>
+    <span>Field Geology</span>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Interested in GIS, environmental science and geospatial opportunities.</p>
+  <br>
+  <p>Email: YOUR_EMAIL_HERE</p>
+  <p>LinkedIn: YOUR_LINKEDIN_HERE</p>
+</section>
+
+<footer>
+  <p>© 2026 Jinu Ramesh | GIS & Geology Portfolio</p>
+</footer>
+
+</body>
+</html>
